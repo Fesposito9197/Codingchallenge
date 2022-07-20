@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* background */
+body{
+    background-image: url('image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container */
+#container{
+   background-color:rgba(0, 0, 0, 0.5) ; 
+   width: 63%;
+   margin: 30px auto;
+   border-radius: 20px;
+   padding:100px  ;
+}
+
+/* header top */
+img{
+    width:26%;
+    margin: auto;
+    display: block;
+}
+
+#scritta{
+    color:#00dd00;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* header bottom */
+.greenbar{
+    background-color: #00dd00;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* main */
+.monopattino{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.nome{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.statocarica-text{
+    font-weight: 300px;
+}
+
+.statocarica{
+    border-radius: 5px;
+    height: 30px;
+}
+
+#charge1{
+    background-color:#f5b453 ;
+    width:350px;
+}
+
+#charge2{
+    background-color:#1ec31e ;
+    width:600px;
+}
+
+#charge3{
+    background-color:#be4141 ;
+    width: 150px;
+}
+
